@@ -15,8 +15,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
@@ -29,8 +28,7 @@
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -40,8 +38,7 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/cente"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintStart_toStartOf="parent">
 
         <Button
             android:id="@+id/button"
@@ -114,15 +111,13 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/not_registered"
             android:textColor="#FFFFFF"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="157dp"
             tools:layout_editor_absoluteY="681dp" />
 
@@ -133,7 +128,6 @@
             android:text="@string/create_account"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
-            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="157dp"
             tools:layout_editor_absoluteY="681dp" />
 
